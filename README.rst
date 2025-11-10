@@ -1,5 +1,5 @@
 ==========
-jsonschema
+jsonschema-utf8
 ==========
 
 |PyPI| |Pythons| |CI| |ReadTheDocs| |Precommit| |Zenodo|
@@ -29,7 +29,7 @@ jsonschema
    :target: https://zenodo.org/badge/latestdoi/3072629
 
 
-``jsonschema`` is an implementation of the `JSON Schema <https://json-schema.org>`_ specification for Python.
+``jsonschema-utf8`` is an implementation of the `JSON Schema <https://json-schema.org>`_ specification for Python supporting utf8.
 
 .. code:: python
 
