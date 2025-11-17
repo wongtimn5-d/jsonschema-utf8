@@ -35,7 +35,7 @@ def __getattr__(name):
         )
 
         from importlib import metadata
-        return metadata.version("jsonschema")
+        return metadata.version("jsonschema-utf8")
     elif name == "RefResolver":
         from jsonschema.validators import _RefResolver
         warnings.warn(

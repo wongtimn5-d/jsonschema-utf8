@@ -5,11 +5,11 @@ import re
 ROOT = Path(__file__).parent.parent
 PACKAGE_SRC = ROOT / "jsonschema"
 
-project = "jsonschema"
-author = "Julian Berman"
-copyright = "2013, " + author
+project = "jsonschema-utf8"
+author = "Tim Wong"
+copyright = "2025, " + author
 
-release = importlib.metadata.version("jsonschema")
+release = importlib.metadata.version("jsonschema-utf8")
 version = release.partition("-")[0]
 
 language = "en"

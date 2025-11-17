@@ -6,8 +6,8 @@ build-backend = "hatchling.build"
 source = "vcs"
 
 [project]
-name = "jsonschema"
-description = "An implementation of JSON Schema validation for Python"
+name = "jsonschema-utf8"
+description = "An implementation of JSON Schema validation for Python with support for utf8. A fork of jsonschema."
 requires-python = ">=3.10"
 license = "MIT"
 license-files = ["COPYING"]
@@ -19,7 +19,7 @@ keywords = [
   "json schema",
 ]
 authors = [
-  { name = "Julian Berman", email = "Julian+jsonschema@GrayVines.com" },
+  { name = "Tim Wong", email = "wongtimn5@gmail.com" },
 ]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
@@ -71,13 +71,12 @@ format-nongpl = [
 jsonschema = "jsonschema.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/python-jsonschema/jsonschema"
+Homepage = "https://github.com/wongtimn5-d/jsonschema-utf8"
 Documentation = "https://python-jsonschema.readthedocs.io/"
-Issues = "https://github.com/python-jsonschema/jsonschema/issues/"
+Issues = "https://github.com/wongtimn5-d/jsonschema-utf8/issues/"
 Funding = "https://github.com/sponsors/Julian"
-Tidelift = "https://tidelift.com/subscription/pkg/pypi-jsonschema?utm_source=pypi-jsonschema&utm_medium=referral&utm_campaign=pypi-link"
-Changelog = "https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst"
-Source = "https://github.com/python-jsonschema/jsonschema"
+Changelog = "https://github.com/wongtimn5-d/jsonschema-utf8/blob/main/CHANGELOG.rst"
+Source = "https://github.com/wongtimn5-d/jsonschema-utf8"
 
 [dependency-groups]
 test = ["virtue", "jsonpath-ng"]
